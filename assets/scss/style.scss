@@ -19,8 +19,10 @@ p {
   min-height: 100vh;
   padding-bottom: 60px;
 
+  transition: all .3s;
+
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
 }
 
@@ -79,7 +81,8 @@ p {
 .default {
   transition: all .3s linear;
 
-  background: rgba(0, 0, 0, .2);
+  background: rgba(#ccc, .2);
+  //background: #262d46;
 }
 
 .greenline h2 {

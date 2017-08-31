@@ -8,7 +8,7 @@
 <body>
 
 <?php
-$sendto   = "sfgsdden9911@gmail.com"; // почта, на которую будет приходить письмо
+$sendto   = "2432842@mail.ru"; // почта, на которую будет приходить письмо
 $username = $_POST['your-name'];
 $usermess = $_POST['your-message'];
 $usermail = $_POST['your-email'];
